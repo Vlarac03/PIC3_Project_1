@@ -6,7 +6,10 @@ import socket
 HOST = "127.0.0.1"
 PORT = 65432
 
-temperatura, humitat, irrigacio, plujometre = 15, 40, 0.5, 10
+temperatura =  random.uniform(-4,40)
+humitat = random.uniform(0,100)
+irrigacio = random.uniform(0,1)
+plujometre = random.uniform(0,100)
 
 def sensor_temperatura():
     global temperatura
